@@ -2,10 +2,10 @@ import sys
 
 from PySide6.QtWidgets import QApplication
 
-from View import MovieView
-from controller import MovieController
+from Views.View import MovieView
+from Controlers.controller import MovieController
 
-from Model import MoviesModel
+from Models.Model import MoviesModel
 
 def main():
     app = QApplication(sys.argv)

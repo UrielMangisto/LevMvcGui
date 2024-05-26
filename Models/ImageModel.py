@@ -2,7 +2,7 @@ import requests
 from typing import List, Optional, Tuple
 
 
-from config import API_KEY, API_SECRET
+from Models.config import API_KEY, API_SECRET
 
 IMAGGA_API_ENDPOINT = "https://api.imagga.com"
 

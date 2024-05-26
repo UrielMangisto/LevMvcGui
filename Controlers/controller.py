@@ -2,8 +2,8 @@ from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt
 
 
-from View import MovieView
-from ImageModel import ImageModel
+from Views.View import MovieView
+from Models.ImageModel import ImageModel
 
 
 from PySide6.QtCore import QObject

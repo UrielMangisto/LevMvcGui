@@ -5,11 +5,11 @@ from PySide6.QtWidgets import (
     QListWidgetItem,
 )
 
-from View import MovieView
-from ListView import MovieListView
-from controller import MovieController
-from Model import MoviesModel
-from Dto import MovieDto
+from Views.View import MovieView
+from Views.ListView import MovieListView
+from Controlers.controller import MovieController
+from Models.Model import MoviesModel
+from Models.Dto import MovieDto
 
 class MovieListController:
     def __init__(self, view: MovieListView,model : MoviesModel ) -> None:

@@ -1,9 +1,9 @@
 from PySide6.QtWidgets import QApplication
-from Model import MoviesModel
+from Models.Model import MoviesModel
 import sys
 
-from ListView import MovieListView
-from ListController import MovieListController
+from Views.ListView import MovieListView
+from Controlers.ListController import MovieListController
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

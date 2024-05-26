@@ -1,8 +1,8 @@
 import requests
 import json
 from typing import Optional
-from Dto import MovieDto
-from config import  BASE_URL
+from Models.Dto import MovieDto
+from Models.config import  BASE_URL
 
 class MoviesModel:
     """Model Class for the Movie Entity"""
